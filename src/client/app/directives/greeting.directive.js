@@ -1,5 +1,3 @@
-import angular from 'angular';
-
 function greeting() {
   return {
     restrict: 'E',

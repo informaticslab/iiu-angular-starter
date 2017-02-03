@@ -1,6 +1,5 @@
-import angular from 'angular';
-
 class RandomNames {
+
   constructor() {
     this.names = ['Tom', 'Mary', 'Peter', 'Kristin', 'Michael', 'Jason', 'Greg', 'Sanjith', 'Trung', 'Dale', 'Jai', 'KB'];
   }
