@@ -14,3 +14,4 @@ class RandomNames {
 export default angular.module('services.random-names', [])
   .service('randomNames', RandomNames)
   .name;
+
