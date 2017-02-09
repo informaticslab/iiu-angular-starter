@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A starter for IIU projects using AngularJS, Node.js, Express, Webpack.",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --bail --progress --profile",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --bail --progress --profile --inline --hot",
     "prebuild": "npm run clean:build",
     "build": "cross-env NODE_ENV=production webpack --bail --progress --profile",
     "serve:dev": "cross-env NODE_ENV=development nodemon ./src/server/app.js",
