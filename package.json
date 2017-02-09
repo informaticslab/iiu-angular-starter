@@ -30,6 +30,7 @@
     "mongoose": "^4.8.1",
     "morgan": "^1.7.0",
     "passport": "^0.3.2",
+    "serve-favicon": "^2.3.2",
     "toastr": "^2.1.2"
   },
   "devDependencies": {
@@ -53,7 +54,9 @@
     "karma": "^1.1.0",
     "karma-coverage": "^1.0.0",
     "karma-jasmine": "^1.0.2",
+    "karma-nyan-reporter": "^0.2.5",
     "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sinon": "^1.0.5",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "0.0.26",
     "karma-webpack": "2.0.1",
@@ -63,6 +66,7 @@
     "postcss-loader": "1.2.2",
     "raw-loader": "^0.5.1",
     "rimraf": "^2.5.1",
+    "sinon": "^1.17.7",
     "style-loader": "^0.13.0",
     "webpack": "2.2.0",
     "webpack-dev-server": "2.2.0"
